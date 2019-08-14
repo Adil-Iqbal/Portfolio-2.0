@@ -9,7 +9,7 @@ const HtmlWebpackBannerPlugin = require('html-webpack-banner-plugin');
 const VENDOR_LIBS = ['react', 'react-dom', 'prop-types'];
 const BANNER = `
 
-Tic-Tac-Toe in React!
+Portfolio Page v2.0
 @license MIT.
 Copyright (c) 2019 Adil Iqbal.
 
@@ -27,6 +27,9 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'scripts/[name].[chunkhash].bundle.js',
     chunkFilename: 'scripts/[name].[chunkhash].bundle.js',
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   optimization: {
     runtimeChunk: 'single',
