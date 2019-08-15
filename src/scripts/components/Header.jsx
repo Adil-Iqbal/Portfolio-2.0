@@ -10,18 +10,18 @@ function Header() {
       <Container>
         <Navbar bg="light">
           <Navbar.Brand>Adil Iqbal</Navbar.Brand>
-          <Nav className="ml-auto">
+          <Nav className="mx-auto">
             <LinkContainer to="/">
-              <Nav.Link>Home</Nav.Link>
+              <Nav.Link className="mx-3">Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/portfolio">
-              <Nav.Link>Portfolio</Nav.Link>
+              <Nav.Link className="mx-3">Portfolio</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/blog">
-              <Nav.Link>Blog</Nav.Link>
+              <Nav.Link className="mx-3">Blog</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/contact">
-              <Nav.Link>Contact</Nav.Link>
+              <Nav.Link className="mx-3">Contact</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar>

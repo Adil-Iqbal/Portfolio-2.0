@@ -1,0 +1,42 @@
+[
+  {
+    "title": "The All-American Quote Machine",
+    "image": "quote.jpg",
+    "features": ["Twitter API", "JSON data", "jQuery", "HTML, CSS, Javascript"],
+    "about": "This site aggregates and presents several curated quotes from notable American presidents, scientists, captains of industry, literary figures, and much more! If you find a quote that you'd like to share, you can share it easily via Twitter.",
+    "launchURL": "quotes/index.html",
+    "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/quotes"
+  },
+  {
+    "title": "Tic Tac Toe in React!",
+    "image": "tic-tac-toe.jpg",
+    "features": ["React JS Framework", "Bootstrap 4", "Recursive Algorithm", "Node JS & Webpack"],
+    "about": "This is the classic game of Tic-Tac-Toe built using the React framework. The game uses a recursive algorithm to play perfectly, but has a chance to blunder a move to give the player a fighting chance!",
+    "launchURL": "tic-tac-toe/index.html",
+    "codeURL": "https://github.com/Adil-Iqbal/tic-tac-toe-react"
+  },
+  {
+    "title": "SC2 Stream Tracker",
+    "image": "stream.jpg",
+    "features": ["Twitch API", "Asynchronous JS", "jQuery", "SCSS"],
+    "about": "Track whether some of the most prolific Starcraft 2 Game Casts are online and visit their streams at the click of your mouse.",
+    "launchURL": "stream/index.html",
+    "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/stream_tracker"
+  },
+  {
+    "title": "Pomodoro Clock",
+    "image": "pomodoro.jpg",
+    "features": ["p5.js framework", "PHP", "HTML, CSS, Javascript"],
+    "about": "A pomodoro clock is a very useful tool for effective time managment. This particular interface for such a clock is readable and easy to use.",
+    "launchURL": "pomodoro/index.html",
+    "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/pomodoro"
+  },
+  {
+    "title": "Polynomial Regression Playground",
+    "image": "polynomial.jpg",
+    "features": ["p5.js framework", "Tensorflow JS Core API", "HTML, CSS, Javascript"],
+    "about": "This site uses the AI to approximate a polynomial function that conforms to custom, user-generated data. I'd be happy to go into an in depth explanation of how it works during a personal interview.",
+    "launchURL": "polynomial/index.html",
+    "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/pomodoro"
+  }
+]
