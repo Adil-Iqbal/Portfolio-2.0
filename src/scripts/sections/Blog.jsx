@@ -1,10 +1,11 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Article from '../components/Article';
 
 function Blog() {
   return (
     <Container>
-      <p>Bloggity Blog.</p>
+      <Article />
     </Container>
   );
 }
