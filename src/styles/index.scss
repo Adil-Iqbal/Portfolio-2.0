@@ -1,28 +1,2 @@
 @import "~bootstrap/scss/bootstrap";
 
-.asi-article {
-  position: absolute;
-  margin-right: auto;
-  margin-left: auto;
-  width: 95%;
-  height: auto;
-
-  border-style: solid;
-  border-color: grey;
-  border-width: 1px;
-  border-radius: 5px;
-}
-
-.asi-article .btn-toolbar .btn {
-  position: relative;
-
-}
-
-.asi-article img {
-  float: left;
-  margin-top: auto;
-  margin-bottom: auto;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
