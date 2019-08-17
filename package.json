@@ -1,7 +1,7 @@
 {
   "name": "portfolio-2.0",
   "version": "2.0.0",
-  "description": "Tic-Tac-Toe Made in ReactJS using NodeJS.",
+  "description": "Adil Iqbal's Portfolio Website for Web Development.",
   "main": "./src/index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -10,26 +10,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Adil-Iqbal/tic-tac-toe-react.git"
+    "url": "git+https://github.com/Adil-Iqbal/Portfolio-2.0.git"
   },
   "keywords": [
-    "tic",
-    "tac",
-    "toe",
+    "blog",
+    "react-router",
+    "react-bootstrap",
+    "portfolio",
     "react",
     "node",
     "web",
     "developer",
     "javascript",
     "jsx",
-    "eslint"
+    "eslint",
+    "bootstrap",
+    "web developer",
+    "Adil",
+    "Iqbal",
+    "Adil Iqbal",
   ],
   "author": "Adil Iqbal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Adil-Iqbal/tic-tac-toe-react/issues"
+    "url": "https://github.com/Adil-Iqbal/Portfolio-2.0/issues"
   },
-  "homepage": "https://github.com/Adil-Iqbal/tic-tac-toe-react#readme",
+  "homepage": "https://github.com/Adil-Iqbal/Portfolio-2.0#readme",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.3.1",
@@ -41,6 +47,7 @@
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.8.6",
+    "react-responsive": "^7.0.0",
     "react-router": "^5.0.1",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.0.1",

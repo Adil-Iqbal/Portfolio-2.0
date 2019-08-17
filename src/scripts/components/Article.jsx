@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Card from 'react-bootstrap/Card';
@@ -9,13 +10,20 @@ import Popover from 'react-bootstrap/Popover';
 
 function Article(props) {
   const {
-    image, title, about, uuid, author, publishDate, tags, readURL,
+    image, title, about, author, publishDate, tags, readURL, uuid, featuredBadge, newBadge,
   } = props;
+  const imagePath = `../../static/${image}`;
   return (
     <Card border="secondary" style={{ width: '100%' }} className="my-3">
       <Card.Body className="p-1">
-        <Image src={image} className="float-left mr-3" />
-        <Card.Title>{title}</Card.Title>
+        <Image src={imagePath} className="float-left mr-3" />
+        <Card.Title>
+          {title}
+          {' '}
+          {featuredBadge && (<Badge variant="primary">Featured</Badge>)}
+          {' '}
+          {newBadge && (<Badge variant="success">New</Badge>)}
+        </Card.Title>
         <Card.Text>{about}</Card.Text>
         <ButtonToolbar className="d-flex justify-content-end">
           <OverlayTrigger
@@ -54,6 +62,8 @@ Article.propTypes = {
   publishDate: PropTypes.string.isRequired,
   tags: PropTypes.arrayOf(PropTypes.string).isRequired,
   readURL: PropTypes.string.isRequired,
+  featuredBadge: PropTypes.bool.isRequired,
+  newBadge: PropTypes.bool.isRequired,
 };
 
 export { Article as default };

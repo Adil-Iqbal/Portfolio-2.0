@@ -7,5 +7,5 @@ import '../styles/index.scss';
 const fetch = require('node-fetch');
 
 fetch('./static/projectData.json').then(resp => resp.json()).then((data) => {
-  ReactDOM.render(<App projectData={data} />, document.getElementById('app'));
+  ReactDOM.render(<App projectData={data.projects} articleData={data.articles} />, document.getElementById('app'));
 });

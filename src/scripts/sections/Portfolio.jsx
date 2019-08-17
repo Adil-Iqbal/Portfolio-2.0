@@ -11,7 +11,7 @@ function Portfolio(props) {
       <CardColumns>
         {projectData.map((proj) => {
           const {
-            title, image, features, about, launchURL, codeURL,
+            title, image, features, about, launchURL, codeURL, uuid, featuredBadge, newBadge,
           } = proj;
           return (
             <Project
@@ -21,6 +21,9 @@ function Portfolio(props) {
               about={about}
               launchURL={launchURL}
               codeURL={codeURL}
+              key={uuid}
+              newBadge={newBadge}
+              featuredBadge={featuredBadge}
             />
           );
         })}

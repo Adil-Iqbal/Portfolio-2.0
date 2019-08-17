@@ -1,42 +1,121 @@
-[
-  {
-    "title": "The All-American Quote Machine",
-    "image": "quote.jpg",
-    "features": ["Twitter API", "JSON data", "jQuery", "HTML, CSS, Javascript"],
-    "about": "This site aggregates and presents several curated quotes from notable American presidents, scientists, captains of industry, literary figures, and much more! If you find a quote that you'd like to share, you can share it easily via Twitter.",
-    "launchURL": "quotes/index.html",
-    "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/quotes"
-  },
-  {
-    "title": "Tic Tac Toe in React!",
-    "image": "tic-tac-toe.jpg",
-    "features": ["React JS Framework", "Bootstrap 4", "Recursive Algorithm", "Node JS & Webpack"],
-    "about": "This is the classic game of Tic-Tac-Toe built using the React framework. The game uses a recursive algorithm to play perfectly, but has a chance to blunder a move to give the player a fighting chance!",
-    "launchURL": "tic-tac-toe/index.html",
-    "codeURL": "https://github.com/Adil-Iqbal/tic-tac-toe-react"
-  },
-  {
-    "title": "SC2 Stream Tracker",
-    "image": "stream.jpg",
-    "features": ["Twitch API", "Asynchronous JS", "jQuery", "SCSS"],
-    "about": "Track whether some of the most prolific Starcraft 2 Game Casts are online and visit their streams at the click of your mouse.",
-    "launchURL": "stream/index.html",
-    "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/stream_tracker"
-  },
-  {
-    "title": "Pomodoro Clock",
-    "image": "pomodoro.jpg",
-    "features": ["p5.js framework", "PHP", "HTML, CSS, Javascript"],
-    "about": "A pomodoro clock is a very useful tool for effective time managment. This particular interface for such a clock is readable and easy to use.",
-    "launchURL": "pomodoro/index.html",
-    "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/pomodoro"
-  },
-  {
-    "title": "Polynomial Regression Playground",
-    "image": "polynomial.jpg",
-    "features": ["p5.js framework", "Tensorflow JS Core API", "HTML, CSS, Javascript"],
-    "about": "This site uses the AI to approximate a polynomial function that conforms to custom, user-generated data. I'd be happy to go into an in depth explanation of how it works during a personal interview.",
-    "launchURL": "polynomial/index.html",
-    "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/pomodoro"
-  }
-]
+{
+  "projects": [
+    {
+      "title": "The All-American Quote Machine",
+      "image": "quote.jpg",
+      "features": ["Twitter API", "JSON data", "jQuery", "HTML, CSS, Javascript"],
+      "about": "This site aggregates and presents several curated quotes from notable American presidents, scientists, captains of industry, literary figures, and much more! If you find a quote that you'd like to share, you can share it easily via Twitter.",
+      "launchURL": "quotes/index.html",
+      "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/quotes",
+      "uuid": "565d9182-ddd7-4055-9cbc-dd68f232c0ff",
+      "featuredBadge": false,
+      "newBadge": false
+    },
+    {
+      "title": "Tic Tac Toe in React!",
+      "image": "tic-tac-toe.jpg",
+      "features": ["React JS Framework", "Bootstrap 4", "Recursive Algorithm", "Node JS & Webpack"],
+      "about": "This is the classic game of Tic-Tac-Toe built using the React framework. The game uses a recursive algorithm to play perfectly, but has a chance to blunder a move to give the player a fighting chance!",
+      "launchURL": "tic-tac-toe/index.html",
+      "codeURL": "https://github.com/Adil-Iqbal/tic-tac-toe-react",
+      "uuid": "9503c678-a591-4590-834c-9d7cb616a743",
+      "featuredBadge": false,
+      "newBadge": true
+    },
+    {
+      "title": "SC2 Stream Tracker",
+      "image": "stream.jpg",
+      "features": ["Twitch API", "Asynchronous JS", "jQuery", "SCSS"],
+      "about": "Track whether some of the most prolific Starcraft 2 Game Casts are online and visit their streams at the click of your mouse.",
+      "launchURL": "stream/index.html",
+      "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/stream_tracker",
+      "uuid": "bc8ed07d-dd4c-4338-8edd-bcbfdef3fe0d",
+      "featuredBadge": false,
+      "newBadge": false
+    },
+    {
+      "title": "Pomodoro Clock",
+      "image": "pomodoro.jpg",
+      "features": ["p5.js framework", "PHP", "HTML, CSS, Javascript"],
+      "about": "A pomodoro clock is a very useful tool for effective time managment. This particular interface for such a clock is readable and easy to use.",
+      "launchURL": "pomodoro/index.html",
+      "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/pomodoro",
+      "uuid": "0c85a49a-e5b2-45d7-b153-181c1006eb75",
+      "featuredBadge": false,
+      "newBadge": false
+    },
+    {
+      "title": "Polynomial Regression Playground",
+      "image": "polynomial.jpg",
+      "features": ["p5.js framework", "Tensorflow JS Core API", "HTML, CSS, Javascript"],
+      "about": "This site uses the AI to approximate a polynomial function that conforms to custom, user-generated data. I'd be happy to go into an in depth explanation of how it works during a personal interview.",
+      "launchURL": "polynomial/index.html",
+      "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/pomodoro",
+      "uuid": "3d15c9f6-e6dd-4a3a-b72c-8ef3b8911c46",
+      "featuredBadge": false,
+      "newBadge": false
+    }
+  ],
+  "articles": [
+    {
+      "image": "project-euler-problem-15-solution-explained.jpg",
+      "title": "Project Euler - Problem 15 - Solution Explained",
+      "about": "The \"Lattice paths\" problem required that I use permutations to understand it, and combination math to solve it.",
+      "uuid": "531c77b3-2302-4ae2-b9ca-197c7cfe1533",
+      "author": "Adil S. Iqbal",
+      "publishDate": "July 30, 2019",
+      "tags": ["Project Euler", "Javascript"],
+      "readURL": "project-euler-problem-15-solution-explained.html",
+      "featuredBadge": true,
+      "newBadge": true
+    },
+    {
+      "image": "project-euler-problem-14-solution-explained.jpg",
+      "title": "Project Euler - Problem 14 - Solution Explained",
+      "about": "We grapple with the Collatz Conjecture. \"Optimization\" is the name of the game!",
+      "uuid": "04c350fe-76b3-4fc9-828f-b63eb5ae12b4",
+      "author": "Adil S. Iqbal",
+      "publishDate": "July 16, 2019",
+      "tags": ["Project Euler", "Javascript"],
+      "readURL": "project-euler-problem-14-solution-explained.html",
+      "featuredBadge": false,
+      "newBadge": false
+    },
+    {
+      "image": "time-complexity-part-2-notation-station.jpg",
+      "title": "Time Complexity, Part 2: Notation Station",
+      "about": "We build some of the vocabulary necessary to talk about how the runtime of our algorithms scale with ever-increasing datasets.",
+      "uuid": "b2fd0303-9b4d-4b46-a4bf-ec64ca3eb906",
+      "author": "Adil S. Iqbal",
+      "publishDate": "June 6, 2019",
+      "tags": ["Big-O Notation", "Javascript"],
+      "readURL": "time-complexity-part-2-notation-station.html",
+      "featuredBadge": false,
+      "newBadge": false
+    },
+    {
+      "image": "time-complexity-part-1-intro-to-big-o.jpg",
+      "title": "Time Complexity, Part 1: Intro to Big-O",
+      "about": "Here, we begin a series of articles that will take a simple, yet in-depth look at Big-O notation.",
+      "uuid": "d37c9394-eddb-446e-95a7-66ac15112dd1",
+      "author": "Adil S. Iqbal",
+      "publishDate": "June 3, 2019",
+      "tags": ["Big-O Notation"],
+      "readURL": "time-complexity-part-1-intro-to-big-o.html",
+      "featuredBadge": false,
+      "newBadge": false
+    },
+    {
+      "image": "project-euler-problem-12-solution-explained.jpg",
+      "title": "Project Euler - Problem 12 - Solution Explained",
+      "about": "In this article, we dive into the interesting world of triangular numbers and their factors.",
+      "uuid": "42de59af-571a-43ca-956e-56b240859e5a",
+      "author": "Adil S. Iqbal",
+      "publishDate": "May 19, 2019",
+      "tags": ["Project Euler", "Javascript"],
+      "readURL": "project-euler-problem-12-solution-explained.html",
+      "featuredBadge": false,
+      "newBadge": false
+    }
+  ]
+}

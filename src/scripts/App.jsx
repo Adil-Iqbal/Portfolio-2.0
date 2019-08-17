@@ -9,7 +9,7 @@ import NotFound from './sections/NotFound';
 import Header from './components/Header';
 
 function App(props) {
-  const { projectData } = props;
+  const { projectData, articleData } = props;
   return (
     <React.Fragment>
       <Router>
@@ -17,7 +17,7 @@ function App(props) {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" render={() => <Portfolio projectData={projectData} />} />
-          <Route path="/blog" component={Blog} />
+          <Route path="/blog" render={() => <Blog articleData={articleData} />} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>
@@ -28,6 +28,7 @@ function App(props) {
 
 App.propTypes = {
   projectData: PropTypes.arrayOf(PropTypes.object).isRequired,
+  articleData: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export { App as default };
