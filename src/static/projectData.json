@@ -1,6 +1,17 @@
 {
   "projects": [
     {
+      "title": "Post Composer",
+      "image": "post-composer.jpg",
+      "features": ["React", "React-Bootstrap", "Create React App", "React-Markdown"],
+      "about": "This app allows you to preview markdown code in real time. It also renders LaTeX (using Math-Jax) and code blocks (using PrismJS).",
+      "launchURL": "post-composer/index.html",
+      "codeURL": "https://github.com/Adil-Iqbal/Coding/tree/master/freeCodingCamp/quotes",
+      "uuid": "cd7fc43e-4ce8-4e60-8ec0-044d8adcaa7e",
+      "featuredBadge": true,
+      "newBadge": true
+    },
+    {
       "title": "The All-American Quote Machine",
       "image": "quote.jpg",
       "features": ["Twitter API", "JSON data", "jQuery", "HTML, CSS, Javascript"],
@@ -19,8 +30,8 @@
       "launchURL": "tic-tac-toe/index.html",
       "codeURL": "https://github.com/Adil-Iqbal/tic-tac-toe-react",
       "uuid": "9503c678-a591-4590-834c-9d7cb616a743",
-      "featuredBadge": false,
-      "newBadge": true
+      "featuredBadge": true,
+      "newBadge": false
     },
     {
       "title": "SC2 Stream Tracker",

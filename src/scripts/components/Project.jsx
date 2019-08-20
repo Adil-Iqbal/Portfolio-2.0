@@ -13,7 +13,7 @@ function Project(props) {
   const imagePath = `../../static/${image}`;
   return (
     <Card border="secondary" style={{ width: '20rem' }} className="my-3">
-      <Card.Img variant="top" src={imagePath} />
+      <Card.Img border="secondary" variant="top" src={imagePath} />
       <Card.Body>
         <Card.Title>
           {title}
