@@ -69,62 +69,52 @@
   ],
   "articles": [
     {
-      "image": "project-euler-problem-15-solution-explained.jpg",
+      "uuid": "531c77b3-2302-4ae2-b9ca-197c7cfe1533",
       "title": "Project Euler - Problem 15 - Solution Explained",
       "about": "The \"Lattice paths\" problem required that I use permutations to understand it, and combination math to solve it.",
-      "uuid": "531c77b3-2302-4ae2-b9ca-197c7cfe1533",
       "author": "Adil S. Iqbal",
       "publishDate": "July 30, 2019",
       "tags": ["Project Euler", "Javascript"],
-      "readURL": "project-euler-problem-15-solution-explained.html",
       "featuredBadge": true,
       "newBadge": true
     },
     {
-      "image": "project-euler-problem-14-solution-explained.jpg",
+      "uuid": "04c350fe-76b3-4fc9-828f-b63eb5ae12b4",
       "title": "Project Euler - Problem 14 - Solution Explained",
       "about": "We grapple with the Collatz Conjecture. \"Optimization\" is the name of the game!",
-      "uuid": "04c350fe-76b3-4fc9-828f-b63eb5ae12b4",
       "author": "Adil S. Iqbal",
       "publishDate": "July 16, 2019",
       "tags": ["Project Euler", "Javascript"],
-      "readURL": "project-euler-problem-14-solution-explained.html",
       "featuredBadge": false,
       "newBadge": false
     },
     {
-      "image": "time-complexity-part-2-notation-station.jpg",
+      "uuid": "b2fd0303-9b4d-4b46-a4bf-ec64ca3eb906",
       "title": "Time Complexity, Part 2: Notation Station",
       "about": "We build some of the vocabulary necessary to talk about how the runtime of our algorithms scale with ever-increasing datasets.",
-      "uuid": "b2fd0303-9b4d-4b46-a4bf-ec64ca3eb906",
       "author": "Adil S. Iqbal",
       "publishDate": "June 6, 2019",
       "tags": ["Big-O Notation", "Javascript"],
-      "readURL": "time-complexity-part-2-notation-station.html",
       "featuredBadge": false,
       "newBadge": false
     },
     {
-      "image": "time-complexity-part-1-intro-to-big-o.jpg",
+      "uuid": "d37c9394-eddb-446e-95a7-66ac15112dd1",
       "title": "Time Complexity, Part 1: Intro to Big-O",
       "about": "Here, we begin a series of articles that will take a simple, yet in-depth look at Big-O notation.",
-      "uuid": "d37c9394-eddb-446e-95a7-66ac15112dd1",
       "author": "Adil S. Iqbal",
       "publishDate": "June 3, 2019",
       "tags": ["Big-O Notation"],
-      "readURL": "time-complexity-part-1-intro-to-big-o.html",
       "featuredBadge": false,
       "newBadge": false
     },
     {
-      "image": "project-euler-problem-12-solution-explained.jpg",
+      "uuid": "42de59af-571a-43ca-956e-56b240859e5a",
       "title": "Project Euler - Problem 12 - Solution Explained",
       "about": "In this article, we dive into the interesting world of triangular numbers and their factors.",
-      "uuid": "42de59af-571a-43ca-956e-56b240859e5a",
       "author": "Adil S. Iqbal",
       "publishDate": "May 19, 2019",
       "tags": ["Project Euler", "Javascript"],
-      "readURL": "project-euler-problem-12-solution-explained.html",
       "featuredBadge": false,
       "newBadge": false
     }
