@@ -1,0 +1,22 @@
+a {
+  color: #1ABC9C;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1ABC9C;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #1ABC9C;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(23, 151, 126);
+  text-decoration: line-through;
+}

@@ -1,4 +1,4 @@
-.euler {
+.ai-euler {
   background: #fafafa;
   padding: 0.3em 1.5em;
   border-left: solid 5px;
@@ -8,12 +8,12 @@
   box-shadow: 11px 10px 0px #eee;
 }
 
-.euler h4 {
+.ai-euler h4 {
   font-weight: bold;
   text-align: center;
 }
 
-.euler td,
-.euler th {
+.ai-euler td,
+.ai-euler th {
   border: 1px solid rgb(189, 189, 189);
 }
