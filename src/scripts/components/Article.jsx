@@ -3,13 +3,14 @@ import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import { PropTypes } from 'prop-types';
 import { LinkContainer } from 'react-router-bootstrap';
+import Container from 'react-bootstrap/Container';
 import MathMarkdown from './MathMarkdown';
 import CodeBlock from './CodeBlock';
 
-async function Article(props) {
+function Article(props) {
   const { markdownSrc } = props;
   return (
-    <React.Fragment>
+    <Container>
       <ButtonToolbar>
         <LinkContainer to="/blog">
           <Button variant="primary" className="ml-auto">Back to Blog</Button>
@@ -22,7 +23,7 @@ async function Article(props) {
         escapeHtml={false}
         skipHtml={false}
       />
-    </React.Fragment>
+    </Container>
   );
 }
 

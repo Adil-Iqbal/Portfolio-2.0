@@ -1,15 +1,17 @@
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable max-len */
 import React from 'react';
 import PropTypes from 'prop-types';
 import CardColumns from 'react-bootstrap/CardColumns';
 import Container from 'react-bootstrap/Container';
-import Project from '../Project';
+import ProjectCard from '../ProjectCard';
 
 function Portfolio(props) {
   const { projectData } = props;
   return (
     <Container>
       <CardColumns>
-        {projectData.map(projectProps => <Project key={projectProps.uuid} {...projectProps} />)}
+        {projectData.map((projectProps) => <ProjectCard key={projectProps.uuid} {...projectProps} />)}
       </CardColumns>
     </Container>
   );

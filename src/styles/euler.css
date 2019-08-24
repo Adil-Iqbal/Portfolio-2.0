@@ -1,0 +1,19 @@
+.euler {
+  background: #fafafa;
+  padding: 0.3em 1.5em;
+  border-left: solid 5px;
+  border-color: #1ABC9C;
+  border-radius: 7px;
+  margin: 2em;
+  box-shadow: 11px 10px 0px #eee;
+}
+
+.euler h4 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.euler td,
+.euler th {
+  border: 1px solid rgb(189, 189, 189);
+}

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import PropTypes from 'prop-types';
 import React from 'react';
 import Container from 'react-bootstrap/Container';
@@ -8,7 +9,7 @@ function Blog(props) {
 
   return (
     <Container>
-      {articleData.map(articleProps => <ArticleCard key={articleProps.uuid} {...articleProps} />)}
+      {articleData.map((articleProps) => <ArticleCard key={articleProps.uuid} {...articleProps} />)}
     </Container>
   );
 }

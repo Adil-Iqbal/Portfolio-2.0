@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Bitter|Roboto&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("./prism.css");
+
+blockquote {
+  background: #fafafa;
+  margin: 1em 1em 1.5em 1em;
+  font-size: 16px;
+  padding: 2.1em 1.5em;
+  border-radius: 5px;
+  border-left: 15px solid #1ABC9C;
+  box-shadow: 11px 10px 0px #eee;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bitter', serif;
+  margin-top: 1.1em;
+  margin-bottom: 0.8em;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h5 {
+  text-align: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.04em;
+  line-height: 1.8em;
+}
+
+.author,
+.date {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.04em;
+  line-height: 0em;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: auto;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1ABC9C;
+  color: white;
+}
+
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+}
+
+a {
+  color: #1ABC9C;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #1ABC9C;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #1ABC9C;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(23, 151, 126);
+  text-decoration: line-through;
+}
+
+li {
+  margin-bottom: 0.8em;
+}
+
+@import url("./euler.css");
+@import url("./bootstrap.css");

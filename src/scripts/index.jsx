@@ -3,10 +3,10 @@ import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import '../styles/index.scss';
+import '../styles/index.css';
 
 const fetch = require('node-fetch');
-const blogPostNotFound = '<div class="euler">\n\n#### Blog Post Not Found\n\nMy sincerest apologies; this blog post does not exist.\n\nConsider going back to the [main page](http://www.adil-iqbal) and enjoying our other content.\n\n</div>';
+const blogPostNotFound = '<div class="euler">\n\n#### Blog Post Not Found\n\nMy sincerest apologies; this blog post does not exist.\n\nConsider going back to the [main page](http://www.adil-iqbal.com) and enjoying our other content.\n\n</div>';
 
 fetch('./static/data.json')
   .then(response => response.json())

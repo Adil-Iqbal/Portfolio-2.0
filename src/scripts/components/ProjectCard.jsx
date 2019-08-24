@@ -6,11 +6,11 @@ import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 
 
-function Project(props) {
+function ProjectCard(props) {
   const {
-    title, image, features, about, launchURL, codeURL, featuredBadge, newBadge,
+    uuid, title, features, about, launchURL, codeURL, featuredBadge, newBadge,
   } = props;
-  const imagePath = `../../static/${image}`;
+  const imagePath = `../../static/projects/card-image/${uuid}.jpg`;
   return (
     <Card border="secondary" style={{ width: '20rem' }} className="my-3">
       <Card.Img border="secondary" variant="top" src={imagePath} />
@@ -23,7 +23,7 @@ function Project(props) {
           {newBadge && (<Badge variant="success">New</Badge>)}
         </Card.Title>
         <ul>
-          {features.map(item => <li key={item}>{item}</li>)}
+          {features.map((item) => <li key={item}>{item}</li>)}
         </ul>
         <Card.Text>{about}</Card.Text>
         <ButtonToolbar>
@@ -35,9 +35,9 @@ function Project(props) {
   );
 }
 
-Project.propTypes = {
+ProjectCard.propTypes = {
+  uuid: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
   features: PropTypes.arrayOf(PropTypes.string).isRequired,
   about: PropTypes.string.isRequired,
   launchURL: PropTypes.string.isRequired,
@@ -46,4 +46,4 @@ Project.propTypes = {
   featuredBadge: PropTypes.bool.isRequired,
 };
 
-export { Project as default };
+export { ProjectCard as default };

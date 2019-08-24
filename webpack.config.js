@@ -66,11 +66,10 @@ module.exports = {
         },
       },
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         loaders: [
           MiniCssExtractPlugin.loader,
           'css-loader',
-          'sass-loader',
         ],
       },
     ],
