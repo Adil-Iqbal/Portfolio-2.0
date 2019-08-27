@@ -1,9 +1,10 @@
 table {
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: auto;
   margin-bottom: 1em;
-  text-align: center;
 }
 
 td,

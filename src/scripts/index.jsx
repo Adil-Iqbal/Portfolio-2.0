@@ -6,7 +6,7 @@ import App from './App';
 import '../styles/index.css';
 
 const fetch = require('node-fetch');
-const blogPostNotFound = '<div class="euler">\n\n#### Blog Post Not Found\n\nMy sincerest apologies; this blog post does not exist.\n\nConsider going back to the [main page](http://www.adil-iqbal.com) and enjoying our other content.\n\n</div>';
+const blogPostNotFound = '<div class="ai-euler">\n\n#### Blog Post Not Found\n\nMy sincerest apologies; this blog post does not exist.\n\nConsider going back to the [main page](http://www.adil-iqbal.com) and enjoying our other content.\n\n</div>';
 
 fetch('./static/data.json')
   .then(response => response.json())

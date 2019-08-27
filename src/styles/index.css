@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Bitter|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Raleway|Roboto|Roboto+Mono&display=swap');
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("./vendors/prism.css");
 @import url("./vendors/bootstrap.css");
@@ -7,7 +7,20 @@
 @import url("./ai/heading.css");
 @import url("./ai/links.css");
 @import url("./ai/euler.css");
+@import url("./ai/btn-primary.css");
+@import url("./ai/code.css");
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -36,6 +49,11 @@ li {
   margin-bottom: 0.8em;
 }
 
-.mark-ai {
+.ai-mark {
   background-color: rgb(195, 233, 222);
+}
+
+.react-syntax-highlighter-line-number {
+  color: gray;
+  margin-right: 0.5rem;
 }

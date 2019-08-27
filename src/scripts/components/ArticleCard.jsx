@@ -48,7 +48,7 @@ function ArticleCard(props) {
             </span>
           </OverlayTrigger>
           <LinkContainer to={`/${uuid}`}>
-            <Button variant="primary" className="mr-3">Read</Button>
+            <Button variant="primary" className="mr-3" onClick={() => window.scrollTo(0, 0)}>Read</Button>
           </LinkContainer>
         </ButtonToolbar>
       </Card.Body>
