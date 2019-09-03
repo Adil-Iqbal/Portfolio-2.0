@@ -1,0 +1,20 @@
+header * {
+  background: #1ABC9C;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.navbar-brand img {
+  height: 60px;
+  width: auto;
+}
+
+#logo {
+  color: #fff;
+}

@@ -15,7 +15,7 @@ function ArticleCard(props) {
   } = props;
   const imagePath = `../../static/articles/card-image/${uuid}.jpg`;
   return (
-    <Card border="secondary" style={{ width: '100%' }} className="my-3">
+    <Card border="secondary" style={{ width: '100%' }} className="ai-article-card my-3">
       <Card.Body className="p-1">
         <Image src={imagePath} alt={title} className="float-left mr-3" />
         <Card.Title>

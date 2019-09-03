@@ -1,0 +1,40 @@
+.card {
+  border-style: none;
+}
+
+.ai-article-card {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.ai-project-card {
+-webkit-box-shadow: 0px 5px 8px 5px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 5px 8px 5px rgba(0,0,0,0.2);
+box-shadow: 0px 5px 8px 5px rgba(0,0,0,0.2);
+}
+
+
+.card .card-body .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Bitter", serif;
+}
+
+.article-card .card-body .card-title {
+  margin-top: 0.6rem;
+}
+
+.card .card-body .badge {
+  font-family: "Roboto", sans-serif;
+}
+
+.card .card-body .card-text {
+  font-family: "Raleway", sans-serif;
+}
+
+.card .card-body li {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 0rem;
+}
+

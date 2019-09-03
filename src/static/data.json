@@ -64,7 +64,7 @@
   "articles": [
     {
       "uuid": "531c77b3-2302-4ae2-b9ca-197c7cfe1533",
-      "title": "Project Euler - Problem 15 - Solution Explained",
+      "title": "Laconic Lattice Solution",
       "about": "The \"Lattice paths\" problem required that I use permutations to understand it, and combination math to solve it.",
       "author": "Adil S. Iqbal",
       "publishDate": "July 30, 2019",
@@ -74,8 +74,8 @@
     },
     {
       "uuid": "04c350fe-76b3-4fc9-828f-b63eb5ae12b4",
-      "title": "Project Euler - Problem 14 - Solution Explained",
-      "about": "We grapple with the Collatz Conjecture. \"Optimization\" is the name of the game!",
+      "title": "Concerning the Collatz Conjecture",
+      "about": "Following a simple set of rules, we create a sequence that supposedly always ends at 1. In solving this problem: \"optimization\" is the name of the game!",
       "author": "Adil S. Iqbal",
       "publishDate": "July 16, 2019",
       "tags": ["Project Euler", "Javascript"],
@@ -104,7 +104,7 @@
     },
     {
       "uuid": "42de59af-571a-43ca-956e-56b240859e5a",
-      "title": "Project Euler - Problem 12 - Solution Explained",
+      "title": "Highly Divisible Triangular Numbers",
       "about": "In this article, we dive into the interesting world of triangular numbers and their factors.",
       "author": "Adil S. Iqbal",
       "publishDate": "May 19, 2019",

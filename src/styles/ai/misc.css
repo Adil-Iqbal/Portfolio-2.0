@@ -1,0 +1,49 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.8em;
+}
+
+header {
+  margin-bottom: 1em;
+}
+
+.ai-author,
+.ai-date {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.04em;
+  line-height: 0em;
+}
+
+hr {
+	height: 6px;
+	background: url(https://ibrahimjabbari.com/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+}
+
+li {
+  margin-bottom: 0.8em;
+}
+
+.ai-mark {
+  background-color: rgb(195, 233, 222);
+}
+
+.react-syntax-highlighter-line-number {
+  color: gray;
+  margin-right: 0.5rem;
+}

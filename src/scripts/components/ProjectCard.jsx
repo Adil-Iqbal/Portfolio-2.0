@@ -12,7 +12,7 @@ function ProjectCard(props) {
   } = props;
   const imagePath = `../../static/projects/card-image/${uuid}.jpg`;
   return (
-    <Card border="secondary" style={{ width: '20rem' }} className="my-3">
+    <Card border="secondary" style={{ width: '20rem' }} className="ai-project-card my-3">
       <Card.Img border="secondary" variant="top" src={imagePath} />
       <Card.Body>
         <Card.Title>
