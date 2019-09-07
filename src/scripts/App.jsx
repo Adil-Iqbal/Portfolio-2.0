@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 import Home from './components/pages/Home';
 import Portfolio from './components/pages/Portfolio';
 import Blog from './components/pages/Blog';
@@ -35,7 +36,7 @@ class App extends Component {
     const { articleData, projectData } = this.state;
     if (projectData && articleData) {
       return (
-        <>
+        <Container fluid>
           <Router>
             <Header />
             <Switch>
@@ -52,7 +53,7 @@ class App extends Component {
               <Route component={NotFound} />
             </Switch>
           </Router>
-        </>
+        </Container>
       );
     }
     return (

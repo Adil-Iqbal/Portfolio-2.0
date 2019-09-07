@@ -1,12 +1,12 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import Spinner from 'react-bootstrap/Spinner';
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 
 function Loading(props) {
   const { message } = props;
   return (
-    <Container className="ai-loading">
+    <div className="ai-loading">
       <Spinner
         as="span"
         animation="border"
@@ -14,7 +14,7 @@ function Loading(props) {
         role="status"
       />
       <p>{message}</p>
-    </Container>
+    </div>
   );
 }
 

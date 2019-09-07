@@ -1,4 +1,5 @@
-header * {
+.navbar,
+.navbar * {
   background: #1ABC9C;
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -10,10 +11,23 @@ header * {
   text-decoration: none !important;
 }
 
-.navbar-brand img {
-  height: 60px;
-  width: auto;
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bitter", serif !important;
 }
+
+.navbar-brand img {
+  height: 30px;
+  width: auto;
+  border-radius: 0.5em;
+}
+
+span.navbar-toggler-icon {
+  color: #fff;
+}
+
 
 #logo {
   color: #fff;
