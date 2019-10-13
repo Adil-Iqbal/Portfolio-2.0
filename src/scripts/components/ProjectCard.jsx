@@ -5,6 +5,7 @@ import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge';
 
+//  style={{ width: '20rem' }}
 
 function ProjectCard(props) {
   const {
@@ -12,7 +13,7 @@ function ProjectCard(props) {
   } = props;
   const imagePath = `../../static/projects/card-image/${uuid}.jpg`;
   return (
-    <Card border="secondary" style={{ width: '20rem' }} className="ai-project-card my-3">
+    <Card border="secondary" className="ai-project-card">
       <Card.Img border="secondary" variant="top" src={imagePath} />
       <Card.Body>
         <Card.Title>

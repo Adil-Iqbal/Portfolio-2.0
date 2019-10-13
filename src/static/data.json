@@ -63,6 +63,16 @@
   ],
   "articles": [
     {
+      "uuid": "299acdd6-6474-4e91-a6b9-d5cfa37c5ab6",
+      "title": "Time Complexity, Part 3: Step Help",
+      "about": "We finally 'step' into doing actual Big-O analysis with help from a handy-dandy algorithm!",
+      "author": "Adil S. Iqbal",
+      "publishDate": "September 30, 2019",
+      "tags": ["Big-O Notation", "Javascript"],
+      "featuredBadge": false,
+      "newBadge": true
+    },
+    {
       "uuid": "531c77b3-2302-4ae2-b9ca-197c7cfe1533",
       "title": "Laconic Lattice Solution",
       "about": "The \"Lattice paths\" problem required that I use permutations to understand it, and combination math to solve it.",
@@ -70,7 +80,7 @@
       "publishDate": "July 30, 2019",
       "tags": ["Project Euler", "Javascript"],
       "featuredBadge": true,
-      "newBadge": true
+      "newBadge": false
     },
     {
       "uuid": "04c350fe-76b3-4fc9-828f-b63eb5ae12b4",

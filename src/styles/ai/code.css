@@ -4,3 +4,15 @@ code {
   letter-spacing: 0em;
   color: rgb(50, 168, 145);
 }
+
+.react-syntax-highlighter-line-number {
+  color: gray;
+  /* padding-right: 0.5rem; */
+}
+
+pre code:first-child {
+  border-right-style: solid;
+  border-right-color: gray;
+  border-right-width: 1px;
+  margin-right: 10px;
+}

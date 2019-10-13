@@ -10,7 +10,7 @@ function Header() {
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand>
           <img
-            src="../static/logo-hybrid.jpg"
+            src="../static/assets/logo-icon.jpg"
             alt="Adil Iqbal Logo"
             className="d-inline-block align-top mx-3 rounded"
           />
@@ -19,16 +19,16 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <LinkContainer to="/">
+            <LinkContainer to="/" exact activeClassName="ai-active">
               <Nav.Link className="mx-3">Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/portfolio">
+            <LinkContainer to="/portfolio" activeClassName="ai-active">
               <Nav.Link className="mx-3">Portfolio</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/blog">
+            <LinkContainer to="/blog" activeClassName="ai-active">
               <Nav.Link className="mx-3">Blog</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/contact">
+            <LinkContainer to="/contact" activeClassName="ai-active">
               <Nav.Link className="mx-3">Contact</Nav.Link>
             </LinkContainer>
           </Nav>

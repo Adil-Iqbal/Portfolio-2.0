@@ -2,6 +2,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 iframe {
@@ -41,9 +43,4 @@ li {
 
 .ai-mark {
   background-color: rgb(195, 233, 222);
-}
-
-.react-syntax-highlighter-line-number {
-  color: gray;
-  margin-right: 0.5rem;
 }

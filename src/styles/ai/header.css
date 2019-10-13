@@ -7,8 +7,12 @@
 
 .navbar-brand,
 .nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff !important;
   text-decoration: none !important;
+  max-height: 30px !important;
 }
 
 .navbar-brand {
@@ -31,4 +35,12 @@ span.navbar-toggler-icon {
 
 #logo {
   color: #fff;
+}
+
+.ai-active {
+  background: #fff;
+  border-style: none;
+  border-color: #fff;
+  /* border-radius: 5px; */
+  color: #1ABC9C !important;
 }

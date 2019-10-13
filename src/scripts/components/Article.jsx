@@ -45,7 +45,7 @@ class Article extends Component {
             </LinkContainer>
           </ButtonToolbar>
           <MathMarkdown
-            className="mx-5 w-100"
+            className="w-100"
             source={markdownSrc}
             renderers={{ code: CodeBlock }}
             escapeHtml={false}

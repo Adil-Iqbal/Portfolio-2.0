@@ -1,0 +1,56 @@
+@media (min-width: 576px) {
+  .ai-skill-component-wrapper-desktop {
+    display: hidden;
+  }
+}
+
+.ai-side-bar {
+  background: rgb(255, 255, 255);
+}
+
+.ai-headshot-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.ai-skill-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+}
+
+.ai-skill-icon {
+  width: 50px;
+  height: auto;
+}
+
+/* .row {
+  border-style: solid;
+  border-color: red;
+}
+
+.col {
+  border-style: solid;
+  border-color: blue;
+} */
+
+.ai-cover-letter-wrapper {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.ai-banner-logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.ai-banner-logo {
+  height: auto;
+  width: 300px;
+}
