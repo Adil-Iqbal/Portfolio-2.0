@@ -11,6 +11,7 @@ import NotFound from './components/pages/NotFound';
 import Header from './components/Header';
 import Article from './components/Article';
 import Loading from './components/Loading';
+import Footer from './components/Footer';
 
 const fetch = require('node-fetch');
 
@@ -52,12 +53,19 @@ class App extends Component {
               }
               <Route component={NotFound} />
             </Switch>
+            <Footer />
           </Router>
         </Container>
       );
     }
     return (
-      <Loading message="Fetching JSON data..." />
+      <Container fluid>
+        <Header disable />
+        <Container>
+          <Loading message="Fetching JSON data..." />
+        </Container>
+        <Footer />
+      </Container>
     );
   }
 }

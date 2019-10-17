@@ -47,6 +47,7 @@
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-dom": "^16.9.0",
+    "react-fontawesome": "^1.6.1",
     "react-markdown": "^4.1.0",
     "react-mathjax": "^1.0.1",
     "react-responsive": "^7.0.0",
